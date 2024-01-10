@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="7" height="7" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <layer name="Regions" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmBkhGJ1NSI6eZgIAGbQAQQ==
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP1BkhGJ0N46OrJQbg04fPPlwAALw4AeE=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPNBghGJ0N46OrJQbg04fPPlwAAMDoAe0=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPNBkhGJ0N46OrJQbg04fPPlwAAMWYAfk=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPtBghGJ0N46OrJQbg04fPPlwAAMpIAgU=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPtBkhGJ0N46OrJQbg04fPPlwAAM74AhE=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPdBghGJ0N46OrJQbg04fPPlwAANOoAh0=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPdBkhGJ0N46OrJQbg04fPPlwAANhYAik=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP9BghGJ0N46OrJQbg04fPPlwAAN0IAjU=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP9BkhGJ0N46OrJQbg04fPPlwAAOG4AkE=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPDBghGJ0N46OrJQbg04fPPlwAAOZoAk0=
+  </data>
+ </layer>
+ <layer name="Output_Ground" width="7" height="7" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPAtH4QQTUUwoS0fhJROgBAIWMAWc=
+  </data>
+ </layer>
+</map>

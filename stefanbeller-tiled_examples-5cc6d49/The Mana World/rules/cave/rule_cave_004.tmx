@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="7" height="7" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Regions" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPnKEYnU0rOXIAAN4zBDE=
+  </data>
+ </layer>
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANYIdidDayPAMWcXIAAA+kACs=
+  </data>
+ </layer>
+ <layer name="InputNot_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/YCfAJxUAAAS0AA8=
+  </data>
+ </layer>
+ <layer name="Output_Ground" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM8qF0Lha5eihdi0WuH0r3EmEHJQAAc+sC9Q==
+  </data>
+ </layer>
+ <layer name="Output_Collision" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmKAYnU2JHAOaHKUAAA3kAB0=
+  </data>
+ </layer>
+</map>

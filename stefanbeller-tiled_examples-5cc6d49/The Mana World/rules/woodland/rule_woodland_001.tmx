@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="33" height="17" tilewidth="32" tileheight="32">
+ <properties>
+ </properties>
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <layer name="Regions" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcgJmRuvRQBaPhAAEjzb+4wHD11ygYBaNgFFADAAAl1QBx
+  </data>
+ </layer>
+ <layer name="Input_set" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0LcRgDAQBVEpwpsuhIcuKQHfKwGbKkMziLlNXvrvlPpGgX4MMcIYE0wxwxwLLLXbna4z7K+wxgZb7LDHAUecPP/Dwv4VN9zxwBMvz++1Nf/0LkmSpDe6Ab2gBwA=
+  </data>
+ </layer>
+ <layer name="Output_Ground" width="33" height="17" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcgJHK9FAFIVSmhyoIJ5EeriB6oB0wCkbBKBgFgxgAAMkbBbg=
+  </data>
+ </layer>
+ <layer name="Output_Fringe" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYegAACMQAAQ==
+  </data>
+ </layer>
+ <layer name="Output_Over" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYegAACMQAAQ==
+  </data>
+ </layer>
+ <layer name="Output_Collision" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcgIlxoF0wOMBID4eR7v9RMApGwSgYBYQBAEllAAo=
+  </data>
+ </layer>
+ <layer name="Output_Error" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYegAACMQAAQ==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="5" height="3" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="423" name="Woodland_x3" tilewidth="32" tileheight="96">
+  <image source="../../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="455" name="Woodland_x2" tilewidth="32" tileheight="64">
+  <image source="../../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="487" name="Woodland_x4" tilewidth="32" tileheight="128">
+  <image source="../../graphics/tiles/Woodland_x4.png" width="512" height="128"/>
+ </tileset>
+ <layer name="Regions" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOmBkRGBcAAAG5AA0=
+  </data>
+ </layer>
+ <layer name="Input_set" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANBBjxSAIBAAJbABI=
+  </data>
+ </layer>
+ <layer name="Input_set" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANDBjxSAIBAAZbADI=
+  </data>
+ </layer>
+ <layer name="InputNot_set" width="5" height="3" opacity="0.48">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOBBhRaWwAAAR6ACM=
+  </data>
+ </layer>
+ <layer name="InputNot_set" width="5" height="3" opacity="0.35">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAODBhRaWwAAAx6AGM=
+  </data>
+ </layer>
+ <layer name="Output1_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
+  </data>
+ </layer>
+ <layer name="Output2_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
+  </data>
+ </layer>
+ <layer name="Output3_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
+  </data>
+ </layer>
+ <layer name="Output4_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
+  </data>
+ </layer>
+ <layer name="Output5_Collision" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
+  </data>
+ </layer>
+ <layer name="Output1_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANtjIyMGxjxC0PACr+AW4=
+  </data>
+ </layer>
+ <layer name="Output2_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANjjIyMBxjxC0PAC6+AY4=
+  </data>
+ </layer>
+ <layer name="Output3_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANnjMyMLxgxC0PADa2AdI=
+  </data>
+ </layer>
+ <layer name="Output4_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANXjIyMLxixC0PADcuAdY=
+  </data>
+ </layer>
+ <layer name="Output5_Fringe" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANzjEyMJxnxC0PADDaAaA=
+  </data>
+ </layer>
+</map>

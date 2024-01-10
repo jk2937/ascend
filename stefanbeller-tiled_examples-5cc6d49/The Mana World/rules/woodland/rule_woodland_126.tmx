@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="9" height="9" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <layer name="Regions" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeMDOispH5yGIwcXQ+PjXkAHLtwuVubP4kBgAASOgAcQ==
+  </data>
+ </layer>
+ <layer name="Input_set" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAftDNi8mEYmU+MPmrZj00NunuoZT8MAABzfwiB
+  </data>
+ </layer>
+ <layer name="Output_Ground" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYCTApzegh3sAA9QABQ==
+  </data>
+ </layer>
+ <layer name="Output_Fringe" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuUEHjm1DZfFKBERrfiQZ2AAB7FADN
+  </data>
+ </layer>
+</map>

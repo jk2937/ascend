@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="17" height="17" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="AutomappingRadius" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="199" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <layer name="Regions" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOcCaRphUYrO7AJT5Q7iBWnl7uGAUjFwAAEGwGBg==
+  </data>
+ </layer>
+ <layer name="Input_set" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzVzkkKgDAQRNGAI84YUcER9f5ndPNFaHDXUazNg4SmyhideOhjgCFGGIu7RKn/SooZ5lhgiZW4q5V3WGzEe4sd9sq9MgOOD/8Lro537Hg47vlrJpw/XXFne7HrBHCXAhU=
+  </data>
+ </layer>
+ <layer name="Output_Ground" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAO8IbS+6H0VjQ6Gkq7UMk+XOAQlN6Lwx0uaDStwEYo7Y0mTm93eKPR6IDW9sNAEho9CkYBDAAAEYQKXA==
+  </data>
+ </layer>
+ <layer name="Output_Fringe" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAtaKSx+cSCiQNkbwIafyGd7T8IpY/T2V5cIGGgHTAKBh0AABA0A/w=
+  </data>
+ </layer>
+ <layer name="Output_Collision" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANYCLApxWglz2EABMaTao8vd1BLzBY4mcUDB4AAEjsABc=
+  </data>
+ </layer>
+ <layer name="Output_Over" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBAwAEhAAB
+  </data>
+ </layer>
+ <layer name="Output_Error" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBAwAEhAAB
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="100" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="monsterboy_assets" tilewidth="16" tileheight="16">
+  <image source="monsterboy_assets.png" width="1280" height="1456"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="500" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2EtKW3EYxuGzAJ0lm9BorVPvLqfRFbRep95djogb8FadtrbqSnxDEkiFE8/pQA08D/xA5eOPs5dkbqwo5tNCWkxLaTmtpNUEAHx+e9ns/XSQDtNROk4n6dSeA8BI+JXN/p0e0p/0Nz2mp/RszwFgJEyOF0UrTaXp9CXNpK9pdvyj/zsAoIrv2ewfaSNtpq20nXbSrj0HgJFwmc2+StfpJt2mn+ku3dtzAAAAAAAAAAAAAAAAAGqaaBRFq9H9eapRfjPZqzXkpso7b90AAPV09rXdLIq1Zvf39Wb5Tb+1ITdV3hl2AwDU09nXi95Gn/e29az572fwwZvBym6qvFN2AwDU1361r33fen8fvCmr7jvDbgCA+sq+O/+fPa/yzls3AEB99hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3s8LbE9VXA==
+  </data>
+ </layer>
+</map>
