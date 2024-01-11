@@ -1,7 +1,7 @@
 <!DOCTYPE html5>
 <html>
 	<head>
-		<title>Smiley Soccar - Preview Build</title>
+		<title>Ascend</title>
 		<link rel="shortcut icon" href="{{ url_for('static', filename='image/icon.ico') }}">
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 	</head>
@@ -99,24 +99,9 @@
 				if(keystates[27]) exit_fullscreen();
 				
 				ctx.clearRect ( 0 , 0 , canvas.width, canvas.height );
-				
-				/*if( keystate_check("A") ) cam_x -= 10;
-				if( keystate_check("D") ) cam_x += 10;
-				if( keystate_check("W") ) cam_y -= 10;
-				if( keystate_check("S") ) cam_y += 10;*/
-		
-				/*ctx.beginPath();
-				ctx.lineWidth="1";
-				ctx.strokeStyle="lime";
-				ctx.rect(
-					cam_x, 
-					cam_y, 
-					160, 
-					128
-				);
-				ctx.stroke();*/
-				
-				player1.move( keystate_check("A"), keystate_check("D"), keystate_check("W") || keystates[32], keystates[16] );
+
+
+							player1.move( keystate_check("A"), keystate_check("D"), keystate_check("W") || keystates[32], keystates[16] );
 				
 				player1.onground = false;
 				for(var i = 0; i < manager.pane.length; i++){
