@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<title>Ascend</title>
-		<link rel="shortcut icon" href="{{ url_for('static', filename='image/icon.ico') }}">
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+		<link rel="shortcut icon" href="image/icon.ico">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body onload="main()" style="overflow: hidden">
 		<div class="centered">
@@ -22,8 +22,8 @@
 			SHIFT ........... Sprint<br>
 		</p>
 		<div style="visibility:hidden;position:absolute">
-			<img src="{{ url_for('static', filename='image/tiles.png') }}" id="gfx_tiles">
-			<img src="{{ url_for('static', filename='image/player.png') }}" id="gfx_player">
+			<img src="image/tiles.png" id="gfx_tiles">
+			<img src="image/player.png" id="gfx_player">
 		</div>
 		<script>
 			function zoom(x){
@@ -123,15 +123,15 @@
 				player1.draw();
 			}
 		</script>
-		<script src="{{ url_for('static', filename='js/map_chunk.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/map_pane_manager.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/map_pane.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/map_layer.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/player.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/input.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/chunk1.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/chunk2.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/chunk3.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/chunk4.js') }}"></script>
+		<script src="js/map_chunk.js"></script>
+		<script src="js/map_pane_manager.js"></script>
+		<script src="js/map_pane.js"></script>
+		<script src="js/map_layer.js"></script>
+		<script src="js/player.js"></script>
+		<script src="js/input.js"></script>
+		<script src="js/chunk1.js"></script>
+		<script src="js/chunk2.js"></script>
+		<script src="js/chunk3.js"></script>
+		<script src="js/chunk4.js"></script>
 	</body>
 </html>

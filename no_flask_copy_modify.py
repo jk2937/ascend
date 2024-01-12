@@ -9,7 +9,7 @@ import subprocess
 
 path = "no_flask"
 js_path = path + "/js"
-style_path = path + "/style"
+style_path = path + "/css"
 image_path = path + "/image"
 
 if os.path.exists(path):
@@ -20,25 +20,20 @@ os.mkdir(path)
  #  Create a new file structure with js, style, and image folders
  #  Copy all relevent project files.
 
+'''
 os.mkdir(js_path)
 os.mkdir(style_path)
 os.mkdir(image_path)
-
 '''
+
 shutil.copy("templates/index.html", path)
-shutil.copy("static/js/*", js_path)
-shutil.copy("static/style/*", style_path)
-shutil.copy("static/image/*", image_path)
-'''
-
-subprocess.call(["cp", "templates/index.html", path])
-subprocess.call(["cp", "static/js", path])
-subprocess.call(["cp", "templates/index.html", path])
-subprocess.call(["cp", "templates/index.html", path])
+shutil.copytree("static/js", js_path)
+shutil.copytree("static/css", style_path)
+shutil.copytree("static/image", image_path)
 
  #  Apply search and replace on the files to make them compatible without flask.
 
-file_path = path + "index.html"
+file_path = path + "/index.html"
 
 file = open(file_path, "r")
 contents = file.read()
@@ -48,4 +43,7 @@ contents = contents.replace("{{ url_for('static', filename='", "")
 contents = contents.replace("') }}", "")
 
 file = open(file_path, "w")
+
+file.write(contents)
+file.close()
 

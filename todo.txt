@@ -1,3 +1,3 @@
-Issue 1 - Add Smiley Soccar graphics
-Issue 2 - Create basic play area
-Issue 3 - Create ball physics
+Todo:
+
+Toggle pixel smoothing
